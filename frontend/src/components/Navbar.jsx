@@ -23,8 +23,9 @@ const Navbar = () => {
   return (
     <nav className='w-full fixed top-0'>
         <div className="container mx-auto p-5 flex items-center flex-wrap justify-between">
-            <div>
+            <div className='flex items-center gap-1'>
                 <img src="/vite.svg" alt="logo" />
+                <span className='font-bold'>KeepNotes</span>
             </div>
             <div className='flex gap-5 items-center'>
                 <Link to={"/"}>Home</Link>
