@@ -17,6 +17,7 @@ const AddNote = () => {
     if(loading) return;
     const url = `${import.meta.env.VITE_SERVER_URL}/api/notes/add`
     try{
+      setLoading(true)
       const res = await fetch(url,{
         method:"POST",
         headers:{
