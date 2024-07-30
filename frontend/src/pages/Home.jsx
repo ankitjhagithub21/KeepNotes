@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <section>
       <div className="container px-5 py-24 mx-auto">
-       
+       <h1 className='text-center my-5 text-2xl font-bold'>Your notes</h1>
         <div className="flex flex-wrap -m-4">
          {
            notes?.map((note)=>{
